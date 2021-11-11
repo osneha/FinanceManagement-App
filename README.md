@@ -1,7 +1,7 @@
 # FinanceManagement-App
 
 ## Group 01
-### Teammates:
+### Collaborators:
 * Ben Weddle 
 * Dipika Sharma
 * Drake Bush 
