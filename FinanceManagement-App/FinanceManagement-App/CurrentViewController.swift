@@ -9,10 +9,16 @@ import UIKit
 
 class CurrentViewController: UIViewController {
 
+    @IBOutlet weak var RentTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        /*
+    leaving this here for reference currently
+        Budgets.shared.Rent = 1
+        var x = Budgets.shared.Rent
+        RentTextField.text = "\(x)"
+        */
     }
     
 

@@ -6,13 +6,33 @@
 //
 
 import UIKit
-
+//Class Called Budgets, stores information of various budgets hence the name
+class Budgets{
+    //Instance of Budgets Named Shared, this is currently a singleton class, this may change
+    static let shared = Budgets()
+    //Variables for each instance
+    var Rent :Int = 0;
+    
+    
+    
+    
+    //Guide for pulling from Budgets to Text
+    /*
+//Class.Instance.Variable, this lets you edit the var if needed
+    Budgets.shared.Rent = 1
+//Optionally store budgets in a variable. Here x = 1 b/c see line above
+    var x = Budgets.shared.Rent
+//Make sure to use "\()" in quotes to interpret the variable as a String
+    RentTextField.text = "\(x)"
+ */
+    
+}
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
 
