@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="QnF-XI-Uuq">
             <objects>
-                <viewController id="ji2-pE-74E" sceneMemberID="viewController">
+                <viewController id="ji2-pE-74E" customClass="HomeViewController" customModule="FinanceManagement_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4GZ-9c-Hkj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,10 +194,10 @@
             </objects>
             <point key="canvasLocation" x="718.84057971014499" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Past View Controller-->
         <scene sceneID="l5l-a8-6jm">
             <objects>
-                <viewController id="txT-cI-l7b" sceneMemberID="viewController">
+                <viewController id="txT-cI-l7b" customClass="PastViewController" customModule="FinanceManagement_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VKf-ou-wNh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="1452" y="72"/>
         </scene>
-        <!--View Controller-->
+        <!--Groceries View Controller-->
         <scene sceneID="uWa-IJ-A1Q">
             <objects>
-                <viewController id="jjB-2q-OfG" sceneMemberID="viewController">
+                <viewController id="jjB-2q-OfG" customClass="GroceriesViewController" customModule="FinanceManagement_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bpk-O2-tVV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -384,16 +384,16 @@
             </objects>
             <point key="canvasLocation" x="2117" y="-625"/>
         </scene>
-        <!--View Controller-->
+        <!--New View Controller-->
         <scene sceneID="e3J-OW-jDO">
             <objects>
-                <viewController id="nx2-1W-gaC" sceneMemberID="viewController">
+                <viewController id="nx2-1W-gaC" customClass="NewViewController" customModule="FinanceManagement_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JG0-xr-caa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xui-5Y-Mwd">
-                                <rect key="frame" x="-4" y="80" width="414" height="44"/>
+                                <rect key="frame" x="-4" y="80" width="413" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="New Budget" id="PQa-52-m5B">
@@ -531,16 +531,16 @@
             </objects>
             <point key="canvasLocation" x="1445" y="-625"/>
         </scene>
-        <!--View Controller-->
+        <!--Current View Controller-->
         <scene sceneID="ca6-xj-rjD">
             <objects>
-                <viewController id="pFA-Dl-wOM" sceneMemberID="viewController">
+                <viewController id="pFA-Dl-wOM" customClass="CurrentViewController" customModule="FinanceManagement_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hTy-dj-HC8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Q8-dI-JmY">
-                                <rect key="frame" x="0.0" y="59" width="414" height="44"/>
+                                <rect key="frame" x="-1" y="59" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Current Budget" id="IS2-g2-fFW">
@@ -669,6 +669,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="5sK-ox-sUt"/>
+        <segue reference="QDc-h6-TbA"/>
     </inferredMetricsTieBreakers>
 </document>
