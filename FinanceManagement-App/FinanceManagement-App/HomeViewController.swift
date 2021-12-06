@@ -32,6 +32,43 @@ class Budgets{
  */
     
 }
+
+class PrevBudgets{
+    //Instance of Budgets Named Shared, this is currently a singleton class, this may change
+    static let shared = PrevBudgets()
+    //Variables for each instance
+    var Rent :Int = 0;
+    var Bills :Int = 0;
+    var Sub :Int = 0;
+    var Groceries :Int = 0;
+    var Savings :Int = 0;
+    var Additional :Int = 0;
+}
+
+class Prev2Budgets{
+    //Instance of Budgets Named Shared, this is currently a singleton class, this may change
+    static let shared = Prev2Budgets()
+    //Variables for each instance
+    var Rent :Int = 0;
+    var Bills :Int = 0;
+    var Sub :Int = 0;
+    var Groceries :Int = 0;
+    var Savings :Int = 0;
+    var Additional :Int = 0;
+}
+
+class Prev3Budgets{
+    //Instance of Budgets Named Shared, this is currently a singleton class, this may change
+    static let shared = Prev3Budgets()
+    //Variables for each instance
+    var Rent :Int = 0;
+    var Bills :Int = 0;
+    var Sub :Int = 0;
+    var Groceries :Int = 0;
+    var Savings :Int = 0;
+    var Additional :Int = 0;
+}
+
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
