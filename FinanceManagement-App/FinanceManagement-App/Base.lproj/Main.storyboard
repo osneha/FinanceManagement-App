@@ -394,6 +394,9 @@
                                 <state key="normal" title="Add">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="OnClick:" destination="jjB-2q-OfG" eventType="touchUpInside" id="cfB-lG-aWB"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NxF-1Q-apO">
                                 <rect key="frame" x="164" y="582" width="144" height="34"/>
@@ -430,6 +433,14 @@
                         <color key="backgroundColor" red="0.51305405029999995" green="0.66666668650000005" blue="0.60373144519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="VXK-9G-ffi"/>
+                    <connections>
+                        <outlet property="ItemCost" destination="qDC-of-Ve7" id="4pF-wm-LRk"/>
+                        <outlet property="ItemName" destination="Ia5-5X-XuH" id="7u3-tA-Jwt"/>
+                        <outlet property="ItemNumber" destination="ukp-zY-1Do" id="9aR-AJ-uGg"/>
+                        <outlet property="ItemTotal" destination="NxF-1Q-apO" id="0Pu-eu-8Vx"/>
+                        <outlet property="RemainingAmt" destination="Ygl-YJ-6QY" id="aWY-Xc-xSB"/>
+                        <outlet property="TotalAmt" destination="eeN-MH-TcU" id="rvP-1i-84g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ITy-Cf-GSY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -751,7 +762,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6kQ-yO-inM"/>
+        <segue reference="QDc-h6-TbA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.down" catalog="system" width="128" height="72"/>
