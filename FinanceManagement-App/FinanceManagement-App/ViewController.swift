@@ -172,10 +172,11 @@ class ViewController: UIViewController {
     @IBAction func ResetCredentialsBtnAction(_ sender: Any) {
         UsernameTextField.text = ""
         PasswordTextField.text = ""
-        
         FavoriteAnimalQuestion.isHidden = false
         SecurityQuestionLabel.isHidden = false
         SecurityQuestionTextField.isHidden = false
+        logInBTN.isEnabled = false
+        logInBTN.backgroundColor = UIColor.black
     }
     
 
