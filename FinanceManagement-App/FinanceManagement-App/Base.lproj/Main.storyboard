@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FinanceManagement_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Budget Manager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ws6-C0-04y">
@@ -64,7 +64,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kLl-YD-RlO"/>
-                                    <segue destination="ji2-pE-74E" kind="show" id="5sK-ox-sUt"/>
+                                    <segue destination="ji2-pE-74E" kind="show" identifier="HomeViewSegue" id="5sK-ox-sUt"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright 2021" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bp9-Rd-250">
@@ -98,6 +98,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.51305405029999995" green="0.66666668650000005" blue="0.60373144519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="78K-6b-UE3"/>
                     <connections>
                         <outlet property="PasswordTextField" destination="ueJ-0r-V8a" id="VF3-Bu-V5Y"/>
                         <outlet property="TextLabel" destination="L0j-zU-Bbk" id="aFm-5W-6tv"/>
@@ -184,6 +185,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYT-HD-vN8">
+                                <rect key="frame" x="20" y="9" width="67" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.61999203660000002" blue="0.37327895509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Log Out">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="gds-Fq-llg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="38i-tm-Q42"/>
                         <color key="backgroundColor" red="0.51305405029999995" green="0.66666668650000005" blue="0.60373144519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -672,6 +684,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XpI-7p-hOU"/>
+        <segue reference="5sK-ox-sUt"/>
     </inferredMetricsTieBreakers>
 </document>
