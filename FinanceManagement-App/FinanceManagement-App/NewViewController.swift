@@ -9,6 +9,21 @@ import UIKit
 
 class NewViewController: UIViewController {
 
+    @IBOutlet weak var totalView: UITextField!
+    
+    @IBOutlet weak var RentAdd: UITextField!
+    
+    @IBOutlet weak var BillsAdd: UITextField!
+    
+    @IBOutlet weak var SubAdd: UITextField!
+    
+    @IBOutlet weak var GroceriesAdd: UITextField!
+    
+    @IBOutlet weak var SavingsAdd: UITextField!
+    
+    @IBOutlet weak var AddAdd: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

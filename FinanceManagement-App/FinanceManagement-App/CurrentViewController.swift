@@ -11,17 +11,53 @@ class CurrentViewController: UIViewController {
 
     @IBOutlet weak var RentTextField: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        /*
-    leaving this here for reference currently
-        Budgets.shared.Rent = 1
-        var x = Budgets.shared.Rent
-        RentTextField.text = "\(x)"
-        */
-    }
+    @IBOutlet weak var BillsTextField: UITextField!
+    
+    @IBOutlet weak var SubTextField: UITextField!
+    
+    @IBOutlet weak var GroceriesTextField: UITextField!
+    
+    @IBOutlet weak var SavingsTextField: UITextField!
+    
+    @IBOutlet weak var AddTextField: UITextField!
     
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //Rent
+        Budgets.shared.Rent = 250
+        var x = Budgets.shared.Rent
+        RentTextField.text = "\(x)"
+        //Bills
+        Budgets.shared.Bills = 125
+        x = Budgets.shared.Bills
+        BillsTextField.text = "\(x)"
+        //Rent
+        Budgets.shared.Sub = 22
+        x = Budgets.shared.Sub
+        SubTextField.text = "\(x)"
+        //Bills
+        Budgets.shared.Groceries = 100
+        x = Budgets.shared.Groceries
+        GroceriesTextField.text = "\(x)"
+        Budgets.shared.Savings = 200
+        x = Budgets.shared.Savings
+        SavingsTextField.text = "\(x)"
+        //Bills
+        Budgets.shared.Additional = 75
+        x = Budgets.shared.Additional
+        AddTextField.text = "\(x)"
+        
+    }
+    
+    /*
+leaving this here for reference currently
+    Budgets.shared.Rent = 1
+    var x = Budgets.shared.Rent
+    RentTextField.text = "\(x)"
+    */
+    
+    
     /*
     // MARK: - Navigation
 

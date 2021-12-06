@@ -12,6 +12,11 @@ class Budgets{
     static let shared = Budgets()
     //Variables for each instance
     var Rent :Int = 0;
+    var Bills :Int = 0;
+    var Sub :Int = 0;
+    var Groceries :Int = 0;
+    var Savings :Int = 0;
+    var Additional :Int = 0;
     
     
     
