@@ -129,6 +129,7 @@ class ViewController: UIViewController {
             UsernameTextField.text = ""
             PasswordTextField.text = ""
             TextLabel.text = "Credentials Reset, Enter New Credentials"
+            FavoriteAnimalQuestion.text = "What Is Your Favorite Animal"
             
         }
         
@@ -177,6 +178,7 @@ class ViewController: UIViewController {
         SecurityQuestionTextField.isHidden = false
         logInBTN.isEnabled = false
         logInBTN.backgroundColor = UIColor.black
+        FavoriteAnimalQuestion.text = "Enter Your Favorite Animal To Reset Password"
     }
     
 
