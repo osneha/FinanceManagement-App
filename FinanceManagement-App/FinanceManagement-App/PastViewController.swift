@@ -9,18 +9,34 @@ import UIKit
 
 class PastViewController: UIViewController {
 
+    @IBOutlet weak var RentView: UITextField!
+    @IBOutlet weak var BillsView: UITextField!
+    @IBOutlet weak var SubView: UITextField!
+    @IBOutlet weak var GroceriesView: UITextField!
+    @IBOutlet weak var SavingsView: UITextField!
+    @IBOutlet weak var AddView: UITextField!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        var y = PrevBudgets.shared.Rent
+        RentView.text = "\(y)"
+        y = PrevBudgets.shared.Bills
+        BillsView.text = "\(y)"
+        y = PrevBudgets.shared.Sub
+        SubView.text = "\(y)"
+        y = PrevBudgets.shared.Groceries
+        GroceriesView.text = "\(y)"
+        y = PrevBudgets.shared.Savings
+        SavingsView.text = "\(y)"
+        y = PrevBudgets.shared.Additional
+        AddView.text = "\(y)"
 
         // Do any additional setup after loading the view.
     }
-    
 
-    @IBOutlet weak var pastMonth: UIButton!
+
     
-    
-    @IBAction func PastMonth(_ sender: Any) {
-    }
     /*
     // MARK: - Navigation
 

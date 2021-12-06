@@ -35,8 +35,6 @@ class NewViewController: UIViewController {
         let x = Int(RentAdd.text!)
         total += x!
         totalView.text = "\(total)"
-        Prev3Budgets.shared.Rent = Prev2Budgets.shared.Rent
-        Prev2Budgets.shared.Rent = PrevBudgets.shared.Rent
         PrevBudgets.shared.Rent = Budgets.shared.Rent
         Budgets.shared.Rent = x!
     }
@@ -45,8 +43,6 @@ class NewViewController: UIViewController {
         let x = Int(BillsAdd.text!)
         total += x!
         totalView.text = "\(total)"
-        Prev3Budgets.shared.Bills = Prev2Budgets.shared.Bills
-        Prev2Budgets.shared.Bills = PrevBudgets.shared.Bills
         PrevBudgets.shared.Bills = Budgets.shared.Bills
         Budgets.shared.Bills = x!
     }
@@ -55,8 +51,6 @@ class NewViewController: UIViewController {
         let x = Int(SubAdd.text!)
         total += x!
         totalView.text = "\(total)"
-        Prev3Budgets.shared.Sub = Prev2Budgets.shared.Sub
-        Prev2Budgets.shared.Sub = PrevBudgets.shared.Sub
         PrevBudgets.shared.Sub = Budgets.shared.Sub
         Budgets.shared.Sub = x!
     }
@@ -65,8 +59,6 @@ class NewViewController: UIViewController {
         let x = Int(GroceriesAdd.text!)
         total += x!
         totalView.text = "\(total)"
-        Prev3Budgets.shared.Groceries = Prev2Budgets.shared.Groceries
-        Prev2Budgets.shared.Groceries = PrevBudgets.shared.Groceries
         PrevBudgets.shared.Groceries = Budgets.shared.Groceries
         Budgets.shared.Groceries = x!
     }
@@ -75,8 +67,6 @@ class NewViewController: UIViewController {
         let x = Int(SavingsAdd.text!)
         total += x!
         totalView.text = "\(total)"
-        Prev3Budgets.shared.Savings = Prev2Budgets.shared.Savings
-        Prev2Budgets.shared.Savings = PrevBudgets.shared.Savings
         PrevBudgets.shared.Savings = Budgets.shared.Savings
         Budgets.shared.Savings = x!
     }
@@ -85,8 +75,6 @@ class NewViewController: UIViewController {
         let x = Int(AddAdd.text!)
         total += x!
         totalView.text = "\(total)"
-        Prev3Budgets.shared.Additional = Prev2Budgets.shared.Additional
-        Prev2Budgets.shared.Additional = PrevBudgets.shared.Additional
         PrevBudgets.shared.Additional = Budgets.shared.Additional
         Budgets.shared.Additional = x!
     }
