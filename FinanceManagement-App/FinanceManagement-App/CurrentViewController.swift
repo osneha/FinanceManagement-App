@@ -25,26 +25,21 @@ class CurrentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Rent
-        Budgets.shared.Rent = 250
         var x = Budgets.shared.Rent
         RentTextField.text = "\(x)"
         //Bills
-        Budgets.shared.Bills = 125
         x = Budgets.shared.Bills
         BillsTextField.text = "\(x)"
-        //Rent
-        Budgets.shared.Sub = 22
+        //Subscritions
         x = Budgets.shared.Sub
         SubTextField.text = "\(x)"
-        //Bills
-        Budgets.shared.Groceries = 100
+        //Groceries
         x = Budgets.shared.Groceries
         GroceriesTextField.text = "\(x)"
-        Budgets.shared.Savings = 200
+        //Savings
         x = Budgets.shared.Savings
         SavingsTextField.text = "\(x)"
-        //Bills
-        Budgets.shared.Additional = 75
+        //Additional
         x = Budgets.shared.Additional
         AddTextField.text = "\(x)"
         

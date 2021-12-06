@@ -23,14 +23,64 @@ class NewViewController: UIViewController {
     
     @IBOutlet weak var AddAdd: UITextField!
     
+    var total = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+    }
+    @IBAction func RentAdd(_ sender: Any) {
+        let x = Int(RentAdd.text!)
+        total += x!
+        totalView.text = "\(total)"
+        Budgets.shared.Rent = x!
+    }
+
+    @IBAction func BillsAdd(_ sender: Any) {
+        let x = Int(BillsAdd.text!)
+        total += x!
+        totalView.text = "\(total)"
+        Budgets.shared.Bills = x!
     }
     
-
+    @IBAction func SubAdd(_ sender: Any) {
+        let x = Int(SubAdd.text!)
+        total += x!
+        totalView.text = "\(total)"
+        Budgets.shared.Sub = x!
+    }
+    
+    @IBAction func GroceriesAdd(_ sender: Any) {
+        let x = Int(GroceriesAdd.text!)
+        total += x!
+        totalView.text = "\(total)"
+        Budgets.shared.Groceries = x!
+    }
+    
+    @IBAction func SavingsAdd(_ sender: Any) {
+        let x = Int(SavingsAdd.text!)
+        total += x!
+        totalView.text = "\(total)"
+        Budgets.shared.Savings = x!
+    }
+    
+    @IBAction func AddAdd(_ sender: Any) {
+        let x = Int(AddAdd.text!)
+        total += x!
+        totalView.text = "\(total)"
+        Budgets.shared.Additional = x!
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
