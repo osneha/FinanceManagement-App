@@ -75,8 +75,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Your Username and Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0j-zU-Bbk">
-                                <rect key="frame" x="78" y="410" width="258" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Username Password and Security Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0j-zU-Bbk">
+                                <rect key="frame" x="28" y="410" width="359" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -94,13 +94,39 @@
                                     <action selector="ResetCredentialsBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vcd-pH-3un"/>
                                 </connections>
                             </button>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V63-DJ-tYP">
+                                <rect key="frame" x="149" y="521" width="212" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="onQuestionEdit:" destination="BYZ-38-t0r" eventType="editingChanged" id="c89-fb-uI8"/>
+                                </connections>
+                            </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmf-KD-Kug">
+                                <rect key="frame" x="49" y="515" width="104" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What Is Your Favorite Animal?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azF-tt-eEg">
+                                <rect key="frame" x="107" y="460" width="200" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.51305405029999995" green="0.66666668650000005" blue="0.60373144519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="78K-6b-UE3"/>
                     <connections>
+                        <outlet property="FavoriteAnimalQuestion" destination="azF-tt-eEg" id="0Za-dm-mWs"/>
                         <outlet property="PasswordTextField" destination="ueJ-0r-V8a" id="VF3-Bu-V5Y"/>
+                        <outlet property="SecurityQuestionLabel" destination="Qmf-KD-Kug" id="wzM-eH-GGd"/>
+                        <outlet property="SecurityQuestionTextField" destination="V63-DJ-tYP" id="iav-4Z-iWZ"/>
                         <outlet property="TextLabel" destination="L0j-zU-Bbk" id="aFm-5W-6tv"/>
                         <outlet property="UsernameTextField" destination="uwg-lc-4Kw" id="9KG-Pb-cDN"/>
                         <outlet property="logInBTN" destination="Yqj-zp-SwH" id="bRD-Wj-Fgy"/>
@@ -193,7 +219,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="gds-Fq-llg"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="KuO-4O-otM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -684,6 +710,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="5sK-ox-sUt"/>
+        <segue reference="6kQ-yO-inM"/>
     </inferredMetricsTieBreakers>
 </document>
