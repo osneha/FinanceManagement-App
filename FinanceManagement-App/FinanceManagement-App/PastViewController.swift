@@ -16,6 +16,11 @@ class PastViewController: UIViewController {
     }
     
 
+    @IBOutlet weak var pastMonth: UIButton!
+    
+    
+    @IBAction func PastMonth(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 

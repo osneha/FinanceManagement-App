@@ -276,15 +276,21 @@
                                 <rect key="frame" x="20" y="149" width="374" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.61999203660000002" blue="0.37327895509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Past Months">
+                                <state key="normal" title="Past Months" image="chevron.down" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="PastMonth:" destination="txT-cI-l7b" eventType="touchUpInside" id="X1l-aK-Gxy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1jx-LQ-PPI"/>
                         <color key="backgroundColor" red="0.51305405029999995" green="0.66666668650000005" blue="0.60373144519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="dNv-0N-14Z"/>
+                    <connections>
+                        <outlet property="pastMonth" destination="a0M-7Y-Lh7" id="Ybd-Eg-2nn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8vZ-Kx-kkU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -729,4 +735,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="6kQ-yO-inM"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
+    </resources>
 </document>
