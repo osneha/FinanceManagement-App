@@ -20,6 +20,7 @@
 		3FE83FEC275D9E9D001BF6EC /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE83FEB275D9E9D001BF6EC /* CurrentViewController.swift */; };
 		3FE83FEE275D9ECE001BF6EC /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE83FED275D9ECE001BF6EC /* GroceriesViewController.swift */; };
 		3FE83FF0275D9F03001BF6EC /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE83FEF275D9F03001BF6EC /* NewViewController.swift */; };
+		3FF4C777275F5F85005A7BB1 /* budgetLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF4C776275F5F85005A7BB1 /* budgetLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 		3FE83FEB275D9E9D001BF6EC /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
 		3FE83FED275D9ECE001BF6EC /* GroceriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
 		3FE83FEF275D9F03001BF6EC /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		3FF4C776275F5F85005A7BB1 /* budgetLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budgetLogo.png; sourceTree = "<group>"; };
 		737C45E25533F158AD2B06D2 /* Pods-FinanceManagement-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceManagement-App.debug.xcconfig"; path = "Target Support Files/Pods-FinanceManagement-App/Pods-FinanceManagement-App.debug.xcconfig"; sourceTree = "<group>"; };
 		C13589B8C631F6E46C24F275 /* Pods_FinanceManagement_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinanceManagement_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3BC19FFA18B9BFFE8DCC86 /* Pods-FinanceManagement-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceManagement-App.release.xcconfig"; path = "Target Support Files/Pods-FinanceManagement-App/Pods-FinanceManagement-App.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				0A9B6109273DB8810005CCD3 /* Assets.xcassets */,
 				0A9B610B273DB8810005CCD3 /* LaunchScreen.storyboard */,
 				0A9B610E273DB8810005CCD3 /* Info.plist */,
+				3FF4C776275F5F85005A7BB1 /* budgetLogo.png */,
 			);
 			path = "FinanceManagement-App";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9B610D273DB8810005CCD3 /* LaunchScreen.storyboard in Resources */,
+				3FF4C777275F5F85005A7BB1 /* budgetLogo.png in Resources */,
 				0A9B610A273DB8810005CCD3 /* Assets.xcassets in Resources */,
 				0A9B6108273DB8800005CCD3 /* Main.storyboard in Resources */,
 			);
